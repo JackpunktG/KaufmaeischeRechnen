@@ -286,11 +286,11 @@ void DifferenzKalkulation()
 
     decimal gewinn = KaufmaeischeRunden(barverkaufspreis - selbstkosten);
     Console.WriteLine($"barverkaufspreis - selbstkosten\t {barverkaufspreis} - {selbstkosten}");
-    Console.WriteLine($"\t\t\t= {gewinn} Gewinn");
+    Console.WriteLine($"\t\t\t= {gewinn} Gewinn (Euro)");
 
     decimal gewinnzuschladsatz = KaufmaeischeRunden(gewinn * 100 / selbstkosten);
     Console.WriteLine($"Gewinn * 100 / selbstkosten\t {gewinn} * 100 / {selbstkosten}");
-    Console.WriteLine($"\t\t\t= {gewinnzuschladsatz} gewinnzuschladsatz");
+    Console.WriteLine($"\t\t\t= {gewinnzuschladsatz} gewinnzuschladsatz (%)");
 }
 
 void EinkaufsKalkulation()
