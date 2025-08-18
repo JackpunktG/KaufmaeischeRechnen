@@ -1,0 +1,2 @@
+C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\bin\Release\net8.0\win-x64\publish\KaufmaeischeRechnen.pdb
+C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\bin\Release\net8.0\win-x64\publish\KaufmaeischeRechnen.exe

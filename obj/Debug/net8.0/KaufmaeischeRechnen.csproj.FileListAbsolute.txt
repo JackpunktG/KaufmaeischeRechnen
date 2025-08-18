@@ -1,0 +1,14 @@
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\bin\Debug\net8.0\KaufmaeischeRechnen.exe
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\bin\Debug\net8.0\KaufmaeischeRechnen.deps.json
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\bin\Debug\net8.0\KaufmaeischeRechnen.runtimeconfig.json
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\bin\Debug\net8.0\KaufmaeischeRechnen.dll
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\bin\Debug\net8.0\KaufmaeischeRechnen.pdb
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.AssemblyInfoInputs.cache
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.AssemblyInfo.cs
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.csproj.CoreCompileInputs.cache
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.dll
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\refint\KaufmaeischeRechnen.dll
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.pdb
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.genruntimeconfig.cache
+c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\ref\KaufmaeischeRechnen.dll
