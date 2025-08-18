@@ -12,3 +12,4 @@ c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\refint\Kaufmaei
 c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.pdb
 c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.genruntimeconfig.cache
 c:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\ref\KaufmaeischeRechnen.dll
+C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Debug\net8.0\KaufmaeischeRechnen.sourcelink.json

@@ -189,6 +189,7 @@ C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\Kaufm
 C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\KaufmaeischeRechnen.AssemblyInfoInputs.cache
 C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\KaufmaeischeRechnen.AssemblyInfo.cs
 C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\KaufmaeischeRechnen.csproj.CoreCompileInputs.cache
+C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\KaufmaeischeRechnen.sourcelink.json
 C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\Kaufmaei.AAF75CC8.Up2Date
 C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\KaufmaeischeRechnen.dll
 C:\Users\JackG\Documents\C#\KaufmaeischeRechnen\obj\Release\net8.0\win-x64\refint\KaufmaeischeRechnen.dll

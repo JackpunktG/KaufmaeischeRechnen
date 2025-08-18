@@ -3,7 +3,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-Console.WriteLine("***Wilkommen zu Kaufmaeische Rechner hilfe***\n   \tZusammen sind wir stark!!");
+Console.WriteLine("***Willkommen zu Kaufmaeische Rechner hilfe***\n   \tZusammen sind wir stark!!");
 
 while (true)
 {
@@ -60,18 +60,20 @@ void DifferenzKalkulation()
     }
 
     bool richtigEingeben = false;
-    Console.WriteLine("\nJetzt kommt die Eingabe felde - 0 einfach wenn's nicht angegeben.\nAusgeben wurden mit punkt als decimal angezeigt.\nAchtung!!! Keinen Tausendertrennzeichen eingeben ");
+    Console.WriteLine("\nJetzt kommen die Eingabefelder  \n'0' eintippen wenn's nicht angegeben.\n'-1' eintippen falls du was falsch getippt hast - es bringt dir wieder zum Main menu\nAusgeben wurden mit punkt als decimal angezeigt.\nAchtung!!! Keinen Tausendertrennzeichen eingeben\n ");
 
     while (!richtigEingeben)
     {
         Console.Write("Listeneinkauspreis (€):");
         string input = Console.ReadLine();
-
+        
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             listeneinkauspreis = decimal.Parse(input);
             richtigEingeben = true;
+
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
     }
@@ -83,6 +85,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             liefererrabatt = decimal.Parse(input);
@@ -98,6 +101,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             liefererskonto = decimal.Parse(input);
@@ -113,6 +117,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             beuzugskosten = decimal.Parse(input);
@@ -128,6 +133,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             handlungskostenzuschlagsatz = decimal.Parse(input);
@@ -143,6 +149,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             kundenskonto = decimal.Parse(input);
@@ -158,6 +165,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             vertreterprovision = decimal.Parse(input);
@@ -173,6 +181,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             kundenrabatt = decimal.Parse(input);
@@ -188,6 +197,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             umsatzsteuer = decimal.Parse(input);
@@ -203,6 +213,7 @@ void DifferenzKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             bruttoverkaufspreis = decimal.Parse(input);
@@ -308,7 +319,7 @@ void EinkaufsKalkulation()
     }
 
     bool richtigEingeben = false;
-    Console.WriteLine("\nJetzt kommt die Eingabe felde - 0 einfach wenn's nicht angegeben.\nAusgeben wurden mit punkt als decimal angezeigt.\nAchtung!!! Keinen Tausendertrennzeichen eingeben ");
+    Console.WriteLine("\nJetzt kommen die Eingabefelder\n'0' eingeben wenn's nicht angegeben.\n'-1' angeben falls du was falsch getippt hast - es bringt dir wieder zum Main menu\nAusgeben wurden mit punkt als decimal angezeigt.\nAchtung!!! Keinen Tausendertrennzeichen eingeben\n");
 
     while (!richtigEingeben)
     {
@@ -316,6 +327,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             bruttoverkaufspreis = decimal.Parse(input);
@@ -331,6 +343,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             liefererrabatt = decimal.Parse(input);
@@ -346,6 +359,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             liefererskonto = decimal.Parse(input);
@@ -361,6 +375,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             beuzugskosten = decimal.Parse(input);
@@ -376,6 +391,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             handlungskostenzuschlagsatz = decimal.Parse(input);
@@ -391,6 +407,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             gewinnzuschlagsatz = decimal.Parse(input);
@@ -406,6 +423,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             kundenskonto = decimal.Parse(input);
@@ -421,6 +439,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             vertreterprovision = decimal.Parse(input);
@@ -436,6 +455,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             kundenrabatt = decimal.Parse(input);
@@ -451,6 +471,7 @@ void EinkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             umsatzsteuer = decimal.Parse(input);
@@ -550,7 +571,7 @@ void VerkaufsKalkulation()
     }
 
     bool richtigEingeben = false;
-    Console.WriteLine("\nJetzt kommt die Eingabe felde - 0 einfach wenn's nicht angegeben.\nAusgeben wurden mit punkt als decimal angezeigt.\nAchtung!!! Keinen Tausendertrennzeichen eingeben ");
+    Console.WriteLine("\nJetzt kommen die Eingabefelder\n'0' eingeben wenn's nicht angegeben.\n'-1' angeben falls du was falsch getippt hast - es bringt dir wieder zum Main menu\nAusgeben wurden mit punkt als decimal angezeigt.\nAchtung!!! Keinen Tausendertrennzeichen eingeben\n ");
 
     while (!richtigEingeben)
     {
@@ -558,6 +579,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             listeneinkauspreis = decimal.Parse(input);
@@ -573,6 +595,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             liefererrabatt = decimal.Parse(input);
@@ -588,6 +611,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             liefererskonto = decimal.Parse(input);
@@ -603,6 +627,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             beuzugskosten = decimal.Parse(input);
@@ -618,6 +643,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             handlungskostenzuschlagsatz = decimal.Parse(input);
@@ -633,6 +659,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             gewinnzuschlagsatz = decimal.Parse(input);
@@ -648,6 +675,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             kundenskonto = decimal.Parse(input);
@@ -663,6 +691,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             vertreterprovision = decimal.Parse(input);
@@ -678,6 +707,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             kundenrabatt = decimal.Parse(input);
@@ -693,6 +723,7 @@ void VerkaufsKalkulation()
         string input = Console.ReadLine();
 
         if (input.Contains(",")) input = input.Replace(',', '.');
+        if (input == "-1") return;
         try
         {
             umsatzsteuer = decimal.Parse(input);
