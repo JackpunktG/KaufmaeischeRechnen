@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KaufmaeischeRechnen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97a5821dec613c3343c1212a345bb1657db49d1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5102a309e73f30c1780b427354d1823840d28512")]
 [assembly: System.Reflection.AssemblyProductAttribute("KaufmaeischeRechnen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KaufmaeischeRechnen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

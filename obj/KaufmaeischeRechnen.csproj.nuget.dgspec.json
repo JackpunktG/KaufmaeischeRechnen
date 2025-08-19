@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj": {}
+    "c:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj": {
+    "c:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj",
+        "projectUniqueName": "c:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj",
         "projectName": "KaufmaeischeRechnen",
-        "projectPath": "C:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj",
+        "projectPath": "c:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\KaufmaeischeRechnen.csproj",
         "packagesPath": "C:\\Users\\JackG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\obj\\",
+        "outputPath": "c:\\Users\\JackG\\Documents\\C#\\KaufmaeischeRechnen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JackG\\AppData\\Roaming\\NuGet\\NuGet.Config"
