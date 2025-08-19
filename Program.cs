@@ -1,7 +1,4 @@
-﻿
-
-
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 Console.WriteLine("***Willkommen zu Kaufmaeische Rechner hilfe***\n   \tZusammen sind wir stark!!");
 
@@ -71,7 +68,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            listeneinkauspreis = decimal.Parse(input);
+            listeneinkauspreis = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
 
         }
@@ -88,7 +85,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            liefererrabatt = decimal.Parse(input);
+            liefererrabatt = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -104,7 +101,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            liefererskonto = decimal.Parse(input);
+            liefererskonto = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -120,7 +117,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            beuzugskosten = decimal.Parse(input);
+            beuzugskosten = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -136,7 +133,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            handlungskostenzuschlagsatz = decimal.Parse(input);
+            handlungskostenzuschlagsatz = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -152,7 +149,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            kundenskonto = decimal.Parse(input);
+            kundenskonto = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -168,7 +165,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            vertreterprovision = decimal.Parse(input);
+            vertreterprovision = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -184,7 +181,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            kundenrabatt = decimal.Parse(input);
+            kundenrabatt = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -200,7 +197,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            umsatzsteuer = decimal.Parse(input);
+            umsatzsteuer = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -216,7 +213,7 @@ void DifferenzKalkulation()
         if (input == "-1") return;
         try
         {
-            bruttoverkaufspreis = decimal.Parse(input);
+            bruttoverkaufspreis = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -330,7 +327,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            bruttoverkaufspreis = decimal.Parse(input);
+            bruttoverkaufspreis = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -346,7 +343,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            liefererrabatt = decimal.Parse(input);
+            liefererrabatt = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -362,7 +359,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            liefererskonto = decimal.Parse(input);
+            liefererskonto = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -378,7 +375,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            beuzugskosten = decimal.Parse(input);
+            beuzugskosten = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -394,7 +391,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            handlungskostenzuschlagsatz = decimal.Parse(input);
+            handlungskostenzuschlagsatz = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -410,7 +407,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            gewinnzuschlagsatz = decimal.Parse(input);
+            gewinnzuschlagsatz = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -426,7 +423,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            kundenskonto = decimal.Parse(input);
+            kundenskonto = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -442,7 +439,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            vertreterprovision = decimal.Parse(input);
+            vertreterprovision = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -458,7 +455,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            kundenrabatt = decimal.Parse(input);
+            kundenrabatt = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -474,7 +471,7 @@ void EinkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            umsatzsteuer = decimal.Parse(input);
+            umsatzsteuer = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -582,7 +579,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            listeneinkauspreis = decimal.Parse(input);
+            listeneinkauspreis = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -598,7 +595,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            liefererrabatt = decimal.Parse(input);
+            liefererrabatt = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -614,7 +611,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            liefererskonto = decimal.Parse(input);
+            liefererskonto = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -630,7 +627,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            beuzugskosten = decimal.Parse(input);
+            beuzugskosten = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -646,7 +643,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            handlungskostenzuschlagsatz = decimal.Parse(input);
+            handlungskostenzuschlagsatz = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -662,7 +659,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            gewinnzuschlagsatz = decimal.Parse(input);
+            gewinnzuschlagsatz = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -678,7 +675,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            kundenskonto = decimal.Parse(input);
+            kundenskonto = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -694,7 +691,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            vertreterprovision = decimal.Parse(input);
+            vertreterprovision = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -710,7 +707,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            kundenrabatt = decimal.Parse(input);
+            kundenrabatt = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
@@ -726,7 +723,7 @@ void VerkaufsKalkulation()
         if (input == "-1") return;
         try
         {
-            umsatzsteuer = decimal.Parse(input);
+            umsatzsteuer = decimal.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
             richtigEingeben = true;
         }
         catch { Console.WriteLine("Ungueltig Eingabe"); }
